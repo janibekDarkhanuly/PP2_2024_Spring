@@ -16,5 +16,16 @@ def game():
 
         elif(guess == x):
             print("Good job,",name,"You guessed my number in",sum+1,"guesses!")
-            return
-game()
+            break
+while(True):
+    print("Do you want to play the game?",'\n' "Y/N")
+    x = input()
+    x.lower()
+    if(x == "y"):
+        game()
+        break
+    elif x == "n":
+        break
+    elif x!="y" and x!="n":
+        print("invalid answer")
+    
