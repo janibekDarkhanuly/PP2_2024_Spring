@@ -5,6 +5,7 @@ import time
 
 # Initialize Pygame
 pygame.init()
+print("hello wrodl")
 
 # Start counter
 start_time = time.time()
